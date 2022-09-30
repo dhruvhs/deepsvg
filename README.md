@@ -61,6 +61,11 @@ And install the dependencies:
 pip install -r requirements.txt
 ```
 
+Packages:
+```
+pip install svgwrite cairosvg svglib tqdm networkx moviepy numba umap-learn umap-learn[plot] shapely kivy
+```
+
 Please refer to [cairosvg](https://cairosvg.org/documentation/#installation)'s documentation for additional requirements of CairoSVG.
 For example:
 - on Ubuntu: `sudo apt-get install libcairo2-dev`.
